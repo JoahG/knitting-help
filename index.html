@@ -26,13 +26,14 @@
 				<h1>Gauge Finder</h1>
 				<div>
 					<h2>Swatch Info</h2>
-					<input type="radio" name="opt" value="inch" class="op" checked>Inches
-					<input type="radio" name="opt" value="centimeter" class="op">Centimeters<br>
-					<input type="text" placeholder="width" id="wid" class="smallbox"> X
-					<input type="text" placeholder="length" id="len" class="smallbox"><br><br>
-					<input type="text" placeholder="stitches" id="sts" class="smallbox"> X
-					<input type="text" placeholder="rows" id="row" class="smallbox"><br><br>
-					<input type="button" value="Calculate" id="cal" class="smallbox">
+					<form>
+						<input type="radio" name="unit" value="in"checked>
+						<input type="radio" name="unit" value="cm">
+						<input type="text" label="length" placeholder="length">&times;
+						<input type="text" label="width" placeholder="width">
+						<input type="text" label="stitches" placeholder="stitches">&times;
+						<input type="text" label="rows" placeholder="rows">
+					</form>
 				</div>
 				<h3></h3>
 			</section>
