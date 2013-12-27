@@ -27,15 +27,26 @@
 				<div>
 					<h2>Swatch Info</h2>
 					<form>
-						<input type="radio" name="unit" value="in"checked>
-						<input type="radio" name="unit" value="cm">
-						<input type="text" label="length" placeholder="length">&times;
-						<input type="text" label="width" placeholder="width">
-						<input type="text" label="stitches" placeholder="stitches">&times;
-						<input type="text" label="rows" placeholder="rows">
+						<div>
+							<h3>Unit of Measurement</h3>
+							<label for="inches">Inches</label>
+							<input type="radio" name="unit" id="inches" checked>
+							<label for="centimeters">Centimeters</label>
+							<input type="radio" name="unit" id="centimeters">
+						</div>
+						<div>
+							<label for="length">Length:</label>
+							<input type="text" placeholder="length" value="">&times;
+							<label for="width">Width:</label>
+							<input type="text" placeholder="width" value="">
+							<label for="stitches">Stitches:</label>
+							<input type="text" placeholder="stitches" value="">&times;
+							<label for="rows">Rows:</label>
+							<input type="text" placeholder="rows" value="">
+						</div>
 					</form>
 				</div>
-				<h3></h3>
+				<output></output>
 			</section>
 
 			<section class="right">
